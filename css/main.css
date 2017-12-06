@@ -1,0 +1,265 @@
+/* General*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/*nav*/
+
+.navbar{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.navbar-nav{
+	padding-left: 70%;
+	}
+
+
+/*Sección 1*/
+
+.uno {
+	background-image: url(../assets/images/taxi-light.jpg); 
+	background-size: cover;
+	background-position:bottom;
+	width:100%; 
+	height:90vh;
+	margin:0;
+	}
+
+.container{
+	width:90%;
+	height:90%;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.subuno{
+
+	height: 70%;
+	margin-top:15%;
+	background-color: #F7B617;
+	color: #FFF;
+	margin-left:58.3%;
+	padding-top: 2%;
+	border: 1px solid f2c252;
+}
+
+
+.logbox{
+	width:90%;
+	height:auto;
+}
+
+/*sección dos*/
+
+.dos{
+	background-color: #F7B617 ;
+	width: 100%;
+}
+
+
+#btn-reg{
+	padding: 20%;
+	border-style: none;
+	border-radius: 4px;
+	margin-top: 20%;
+	color:#000;
+}
+
+#btn-con{
+	padding: 2%;
+	border-style:none;
+	border-radius: 4px;
+	color:#000;
+}
+
+#btn-reg:hover, #btn-con:hover{
+	color:#ACA7A7;
+	background-color: #403F3F;
+	border: 1px solid #ACA7A7;
+}
+
+.sub-logbox{
+	text-align: center;
+}
+
+
+/*Sección 2*/
+
+.dos{
+	width:100%;
+	margin:0;
+	height:80vh;
+	background-color: #F7B617;
+}
+
+.subdos{
+	width: 80%;
+	height: 70%;
+	background-color: #F7B617;
+	border: 2px solid #FFF;
+	border-left:none;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	color: #fff;
+}
+
+#imgphone{
+	height: 70%;
+	width:auto;
+	padding: 10%;
+	padding-left: 25%;
+	padding-bottom: 15%;
+}
+
+.txtapp{
+	color: #FFF;
+}
+
+
+.txtapp h3{
+	margin-top: 10%;
+}
+
+
+
+/*Sección3*/
+
+
+.tres{
+	background-image: url("../assets/images/conduce-light.jpg");
+	background-size: cover;
+	width:100%;
+	margin:0;
+	height: 70vh;
+
+}
+
+/*Caja Interior*/
+.sub-tres{
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  margin-left:66.5%;
+  color: #fff;
+}
+
+
+.txt-con{
+	height: 60%;
+}
+
+.txt-con h3{
+	margin-top: 20%;
+}
+
+.btn-con2{
+	margin-top:10%;
+	padding: 2%;
+	border-style:none;
+	border-radius: 4px;
+	background-color: #F7B617;
+	color:#fff;
+}
+
+.btn-con2:hover {
+	border-style:none;
+	border
+	border-radius: 4px;
+	background-color: #fff;
+	color: #F7B617;
+}
+
+
+
+/*Sección 4*/
+
+.cuatro{
+	margin:0;
+	background-color:#F7B617;
+	width: 100%;
+	height: 70vh;
+	padding:10vh; 
+}
+
+
+.cuatro h3, .cuatro h5{
+	color:#fff;
+}	
+
+.cuatro input{
+	background-color: #F7B617;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bolder;
+	padding: 2%
+}
+
+
+.btn-ruta{
+	border-style:none;
+	border-radius:4px;
+	padding:2%;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.btn-ruta:hover{
+	color:#ACA7A7;
+	background-color: #403F3F;
+	border: 1px solid #ACA7A7;
+}
+
+
+
+.soyelmapa{
+	width:60vh;
+	height: 60vh;
+	padding: 10%;
+	border: 1px solid #fff;
+	margin-top: -10%;
+}
+
+
+
+
+/*Footer*/
+
+footer{
+	width: 100%;
+	height: 85vh;
+	background-color: #2B2B2B;
+	color: #fff;
+	margin-bottom: 0;
+}
+
+
+.container-foot{
+	width: 80%;
+	padding-top:5%;
+	margin-left:10%;
+}
+
+hr {
+	background-color:#fff;
+}
+
+.fa{
+	margin-top: 45vh;
+	text-align: center
+}
+
+.foot-uno a, footer p{
+	color: #fff;
+	font-style: none;
+}
+
+.foot-uno a:hover, footer p:hover{
+	color: #F7B617;
+}
+
+.foot-cuatro{
+	margin-top: 30vh;
+}
