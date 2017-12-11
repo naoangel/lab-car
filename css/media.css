@@ -1,2 +1,120 @@
 
-@media ()
+
+
+/*LG*/
+@media (min-width: 1200px){
+/*SECCION UNO*/
+/*Desaparecer caja interior 2*/
+#subuno2{
+	display:none;
+}
+/*Sección dos*/
+.subdos p {
+	display:none;
+
+}
+/*Footer*/
+ .foot-uno2{
+ 	display:none;
+ }
+}
+
+
+
+/*MD*/
+@media (max-width: 1199px ){
+/*SECCION UNO*/
+#subuno2{
+	display:none;
+}
+
+/*Sección dos*/
+.subdos p {
+	display:none;
+}
+
+/*Footer*/
+ .foot-uno2{
+ 	display:none;
+ }
+]
+
+/*SM*/
+@media(max-width:991px){
+/*SECCION UNO*/
+#subuno{
+	display: none;
+}
+#subuno2{
+	display:block;
+	}
+
+/*Seccion dos*/
+
+.subdos{
+	padding:2vh;
+	border: ;
+}
+
+.subdos p {
+	display:block;
+}
+.textapp{
+	display:none;
+}
+
+/*Footer*/
+ .foot-uno2{
+ 	display:block;
+ }
+
+ .foot-uno{
+ 	display:none;
+ }
+
+ .lista2{
+ 	display:none;
+ }
+
+}
+
+/*XS*/
+@media (max-width: 768px){
+
+	/*SECCION UNO*/
+	#subuno{
+		display:none;
+	}
+
+	#subuno2{
+		display: block;
+	}
+
+	/*Seccion dos*/
+
+	.subdos{
+	padding:2vh;
+	border: 1px solid #fff;
+  }
+
+	.subdos p {
+	display:block;
+}
+	.textapp{
+	display:none;
+}
+
+/*Footer*/
+ .foot-uno2{
+ 	display:block;
+ }
+
+
+ .foot-uno{
+ 	display:none;
+ }
+
+ .lista2{
+ 	display:none;
+ }
+}
